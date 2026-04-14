@@ -1,6 +1,6 @@
 "use client";
 // src/components/ZipSimulator/ZipSimulator.tsx
-import React, { useState, useEffect, useRef, useCallback } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 import {
   ZIPS,
   BASE_STATS,
@@ -10,7 +10,6 @@ import {
   type ZIPData,
   type SliderConfig,
   type MetricResult,
-  type BaseNetworkStats,
 } from "../lib/zipSimulatorData";
 
 // ═══════════════════════════════════════════════════════════════════════════════
